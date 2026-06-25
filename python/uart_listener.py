@@ -1,4 +1,4 @@
-from python.uart_controller import read_distance, close_connection
+from uart_controller import read_distance, close_connection
 import csv
 from datetime import datetime
 

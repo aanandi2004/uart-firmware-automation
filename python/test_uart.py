@@ -1,4 +1,4 @@
-from python.uart_controller import send_command, close_connection
+from uart_controller import send_command, close_connection
 
 def test_version():
     response = send_command("VERSION")
